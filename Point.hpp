@@ -1,5 +1,5 @@
 #pragma once
-#include <SFML\Graphics.hpp>
+#include <SFML/Graphics.hpp>
 #include "Player.hpp"
 class Point
 {
@@ -7,7 +7,6 @@ class Point
 public:
     Point(float x,float y);
     void draw(RenderTarget& window);
-    bool taken(Player& player);
     float coord_x,coord_y;
 private:
     RectangleShape shape;

@@ -1,5 +1,5 @@
 #pragma once
-#include <SFML\Graphics.hpp>
+#include <SFML/Graphics.hpp>
 #include "Stage.hpp"
 #include "Ghost.hpp"
 #include "RedGhost.hpp"
