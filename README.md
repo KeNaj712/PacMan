@@ -8,7 +8,7 @@ $ sudo apt-get install libsfml-dev
 ```
 Następnie odpalamy grę komendami:
 ```
-g++ -c *.cpp
-g++ -o PacMan *.o -lsfml-graphics -lsfml-window -lsfml-system
-./PacMan
+$ g++ -c *.cpp
+$ g++ -o PacMan *.o -lsfml-graphics -lsfml-window -lsfml-system
+$ ./PacMan
 ```
