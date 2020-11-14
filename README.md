@@ -1,12 +1,12 @@
-# Projekt_ProgramowanieObiektowe
+# PacMan
 
-Napisany w języku C++ (dokładniej C++ 14) z użyciem biblioteki SFML 2.5.1
+Written in C++14 using SFML 2.5.1 library for my object-oriented programming class on University.
 
-Aby skompilować, najpierw trzeba zainstalować bibliotekę SFML komendą:
+In order to install SFML:
 ```
 $ sudo apt-get install libsfml-dev
 ```
-Następnie odpalamy grę komendami:
+Next, just launch with following commands:
 ```
 $ g++ -c *.cpp
 $ g++ -o PacMan *.o -lsfml-graphics -lsfml-window -lsfml-system
